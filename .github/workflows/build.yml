@@ -1,43 +1,43 @@
 version: '3.9'
 
 services:
-   restapi:
-      image: mustafa58/db2sem:latest
-      container_name: restapi
-      restart: unless-stopped
-      networks:
-         - frontend
-         - backend
-      environment:
-        CONNECTION_STR: jdbc:postgresql://db:5432/
-        DB_USERNAME: postgres
-        DB_PASSWORD: mustafa
-        DB_NAME: hoteldb
-        DEPLOYED: TRUE
-        SECRET_KEY: 841D8A6C80CBA4FCAD32D5367C18C53B
-        TOKEN_EXPIRE_TIME: 1800000
-        ISSUER: cphbusiness.dk
-      ports:
-         - "7000:7000"
+  restapi:
+    image: mustafa58/my-java-app:latest
+    container_name: restapi
+    restart: unless-stopped
+    networks:
+      - frontend
+      - backend
+    environment:
+      CONNECTION_STR: jdbc:postgresql://db:5432/hoteldb
+      DB_USERNAME: postgres
+      DB_PASSWORD: mustafa
+      DB_NAME: hoteldb
+      DEPLOYED: TRUE
+      SECRET_KEY: 841D8A6C80CBA4FCAD32D5367C18C53B
+      TOKEN_EXPIRE_TIME: 1800000
+      ISSUER: cphbusiness.dk
+    ports:
+      - "7000:7000"
 
-   db:
-      image: postgres:latest
-      container_name: db
-      restart: unless-stopped
-      networks:
-         - backend
-      environment:
-         POSTGRES_USER: postgres
-         POSTGRES_PASSWORD: mustafa
-      volumes:
-         - ./data:/var/lib/postgresql/data/
-      ports:
-         - "5432:5432"
+  db:
+    image: postgres:latest
+    container_name: db
+    restart: unless-stopped
+    networks:
+      - backend
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mustafa
+    volumes:
+      - ./data:/var/lib/postgresql/data/
+    ports:
+      - "5432:5432"
 
 networks:
-   frontend:
-      name: frontend
-      driver: bridge
-   backend:
-      name: backend
-      driver: bridge
+  frontend:
+    name: frontend
+    driver: bridge
+  backend:
+    name: backend
+    driver: bridge

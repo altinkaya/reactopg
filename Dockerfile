@@ -1,5 +1,6 @@
 # Use a lightweight JDK base image
-FROM adoptopenjdk:17-jdk-hotspot AS build
+FROM openjdk:17-jdk AS build
+
 
 # Set the working directory in the container
 WORKDIR /app
