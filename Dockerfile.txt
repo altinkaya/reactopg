@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/*.jar /app/app.jar
 
 # Expose the port that the application will listen on
-EXPOSE 7070
+EXPOSE 7000
 
 # Command to run the application when the container starts
 CMD ["java", "-jar", "app.jar"]
