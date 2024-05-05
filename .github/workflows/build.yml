@@ -1,43 +1,39 @@
-version: '3.9'
-
-services:
-  restapi:
-    image: mustafa58/my-java-app:latest
-    container_name: restapi
-    restart: unless-stopped
-    networks:
-      - frontend
-      - backend
-    environment:
-      CONNECTION_STR: jdbc:postgresql://db:5432/hoteldb
-      DB_USERNAME: postgres
-      DB_PASSWORD: mustafa
-      DB_NAME: hoteldb
-      DEPLOYED: TRUE
-      SECRET_KEY: 841D8A6C80CBA4FCAD32D5367C18C53B
-      TOKEN_EXPIRE_TIME: 1800000
-      ISSUER: cphbusiness.dk
-    ports:
-      - "7000:7000"
-
-  db:
-    image: postgres:latest
-    container_name: db
-    restart: unless-stopped
-    networks:
-      - backend
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: mustafa
-    volumes:
-      - ./data:/var/lib/postgresql/data/
-    ports:
-      - "5432:5432"
-
-networks:
-  frontend:
-    name: frontend
-    driver: bridge
-  backend:
-    name: backend
-    driver: bridge
+name: API JAVALIN WORKFLOW
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
+        name: Checkout
+        uses: actions/checkout@v3
+      -
+        name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      -
+        name: Build with Maven
+        run: mvn --batch-mode --update-snapshots package
+      -
+        # https://docs.docker.com/build/ci/github-actions/tr
+        name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+      -
+        name: Build and push
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/app:latest
