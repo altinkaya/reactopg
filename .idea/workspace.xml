@@ -5,20 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8124629f-8a2a-4a26-8d92-e12ebf0e81ed" name="Changes" comment="hikl">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Application/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Controllers/HotelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Controllers/ISecurityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Controllers/RoomController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Controllers/SecurityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/AbstractDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/HotelDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/ISecurityDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/InterfaceDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/RoomDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/HotelDTO$HotelDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/HotelDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/RoomDTO$RoomDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/RoomDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/TokenDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Exceptions/ApiException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Exceptions/NotAuthorizedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/HibernateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/Hotel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/ISecurityUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/ReST/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/RoomRoute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/Route.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/RouteHotel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/RouteUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/properties-from-pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-app.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -31,9 +76,13 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Docker.Dockerfile build.executor": "Run",
+    "HTTP Request.Request | Henter alle hoteller.executor": "Run",
+    "HTTP Request.Request | Indsætter et nyt hotel ind i databasen.executor": "Run",
     "Maven.BackendMay [install].executor": "Run",
+    "Maven.BackendMay [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mustafa/Documents/GitHub/reactopg",
     "node.js.detected.package.eslint": "true",
@@ -45,7 +94,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Dockerfile build">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.Application.App" />
+      <module name="BackendMay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.Application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Request | Henter alle hoteller" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/Project/Requests/Request.http" requestIdentifier="Henter alle hoteller" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Request | Indsætter et nyt hotel ind i databasen" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/Project/Requests/Request.http" index="4" requestIdentifier="Indsætter et nyt hotel ind i databasen" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="reactopg" />
       <method v="2">
@@ -72,19 +140,25 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Docker.Dockerfile build" />
+        <item itemvalue="HTTP Request.Request | Henter alle hoteller" />
+        <item itemvalue="HTTP Request.Request | Indsætter et nyt hotel ind i databasen" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-18.0.2-corretto-18.0.2-249ae16d76d6-e0389a16" />
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
+        <option value="jdk-18.0.2-corretto-18.0.2-f644763e9732-da6bd485" />
       </set>
     </attachedChunks>
   </component>
@@ -98,6 +172,7 @@
       <updated>1714939253825</updated>
       <workItem from="1714939254898" duration="4437000" />
       <workItem from="1714945186419" duration="4102000" />
+      <workItem from="1714979435380" duration="3084000" />
     </task>
     <task id="LOCAL-00001" summary="hikl">
       <option name="closed" value="true" />

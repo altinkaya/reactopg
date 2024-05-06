@@ -1,5 +1,5 @@
 # Use a lightweight JDK base image
-FROM openjdk:17-jdk AS build
+FROM eclipse-temurin:17-alpine AS build
 
 
 # Set the working directory in the container
