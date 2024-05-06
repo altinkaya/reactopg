@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8124629f-8a2a-4a26-8d92-e12ebf0e81ed" name="Changes" comment="vierk">
+    <list default="true" id="16eea99b-589b-41b7-b8c0-7b098bddf7d2" name="Changes" comment="vierk">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,50 +19,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
-  </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2g3vot8aRtMJNTxqjusn9Fy82fs" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
-    "Docker.Dockerfile build.executor": "Run",
-    "HTTP Request.Request | Henter alle hoteller.executor": "Run",
-    "HTTP Request.Request | Indsætter et nyt hotel ind i databasen.executor": "Run",
-    "Maven.BackendMay [clean].executor": "Run",
-    "Maven.BackendMay [install].executor": "Run",
-    "Maven.BackendMay [verify].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mustafa/Documents/GitHub/reactopg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project.Application.App" />
+      <option name="MAIN_CLASS_NAME" value="application.App" />
       <module name="BackendMay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project.Application.*" />
+          <option name="PATTERN" value="application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,121 +42,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Request | Henter alle hoteller" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/Project/Requests/Request.http" requestIdentifier="Henter alle hoteller" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="Request | Indsætter et nyt hotel ind i databasen" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/Project/Requests/Request.http" index="4" requestIdentifier="Indsætter et nyt hotel ind i databasen" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="reactopg" />
+      <module name="BackendMay" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="reactopg" />
+      <module name="BackendMay" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dockerfile build" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="imageTag" value="adoptopenjdk17-jdk-hotspot_build" />
-          <option name="buildCliOptions" value="--target build" />
-          <option name="buildKitEnabled" value="true" />
-          <option name="buildOnly" value="true" />
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="Docker.Dockerfile build" />
-        <item itemvalue="HTTP Request.Request | Henter alle hoteller" />
-        <item itemvalue="HTTP Request.Request | Indsætter et nyt hotel ind i databasen" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
-        <option value="jdk-18.0.2-corretto-18.0.2-f644763e9732-da6bd485" />
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="8124629f-8a2a-4a26-8d92-e12ebf0e81ed" name="Changes" comment="" />
-      <created>1714939253825</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1714939253825</updated>
-      <workItem from="1714939254898" duration="4437000" />
-      <workItem from="1714945186419" duration="4102000" />
-      <workItem from="1714979435380" duration="6304000" />
-    </task>
-    <task id="LOCAL-00001" summary="hikl">
+    <task id="LOCAL-00001" summary="vierk">
       <option name="closed" value="true" />
-      <created>1714945218654</created>
+      <created>1714988242453</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1714945218654</updated>
+      <updated>1714988242453</updated>
     </task>
-    <task id="LOCAL-00002" summary="hikl">
-      <option name="closed" value="true" />
-      <created>1714950672989</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1714950672989</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ny test">
-      <option name="closed" value="true" />
-      <created>1714984239765</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1714984239765</updated>
-    </task>
-    <task id="LOCAL-00004" summary="vierk">
-      <option name="closed" value="true" />
-      <created>1714987383776</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1714987383776</updated>
-    </task>
-    <task id="LOCAL-00005" summary="vierk">
-      <option name="closed" value="true" />
-      <created>1714987593138</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1714987593138</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hikl" />
-    <MESSAGE value="ny test" />
     <MESSAGE value="vierk" />
     <option name="LAST_COMMIT_MESSAGE" value="vierk" />
   </component>
