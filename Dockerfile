@@ -1,15 +1,7 @@
-# Use a lightweight JDK base image
-FROM eclipse-temurin:17-alpine AS build
-
-
-# Set the working directory in the container
-WORKDIR /app
-
-# Copy the packaged JAR file into the container
-COPY target/*.jar /app/app.jar
-
-# Expose the port that the application will listen on
-EXPOSE 7000
-
-# Command to run the application when the container starts
-CMD ["java", "-jar", "app.jar"]
+FROM eclipse-temurin:17-alpine
+# This is the jar file that you want to run
+COPY target/app.jar /app.jar
+# This is the port that your javalin application will listen on
+EXPOSE 7007
+# This is the command that will be run when the container starts
+ENTRYPOINT ["java", "-jar", "/app.jar"]
