@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8124629f-8a2a-4a26-8d92-e12ebf0e81ed" name="Changes" comment="ny test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8124629f-8a2a-4a26-8d92-e12ebf0e81ed" name="Changes" comment="vierk">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Project/Persistence/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project/Persistence/HibernateConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,7 @@
       <updated>1714939253825</updated>
       <workItem from="1714939254898" duration="4437000" />
       <workItem from="1714945186419" duration="4102000" />
-      <workItem from="1714979435380" duration="5986000" />
+      <workItem from="1714979435380" duration="6304000" />
     </task>
     <task id="LOCAL-00001" summary="hikl">
       <option name="closed" value="true" />
@@ -161,7 +159,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714984239765</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vierk">
+      <option name="closed" value="true" />
+      <created>1714987383776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714987383776</updated>
+    </task>
+    <task id="LOCAL-00005" summary="vierk">
+      <option name="closed" value="true" />
+      <created>1714987593138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714987593138</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +184,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hikl" />
     <MESSAGE value="ny test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ny test" />
+    <MESSAGE value="vierk" />
+    <option name="LAST_COMMIT_MESSAGE" value="vierk" />
   </component>
 </project>

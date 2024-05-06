@@ -309,11 +309,6 @@
             <version>0.11.2</version>
             <scope>runtime</scope>
         </dependency>
-        <dependency>
-            <groupId>org.hibernate.orm</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>6.2.4.Final</version>
-        </dependency>
 
 
     </dependencies>
