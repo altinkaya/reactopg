@@ -4,48 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8124629f-8a2a-4a26-8d92-e12ebf0e81ed" name="Changes" comment="hikl">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8124629f-8a2a-4a26-8d92-e12ebf0e81ed" name="Changes" comment="ny test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/app.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Application/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Controllers/HotelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Controllers/ISecurityController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Controllers/RoomController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Controllers/SecurityController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/AbstractDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/HotelDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/ISecurityDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/InterfaceDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/RoomDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DAOs/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/HotelDTO$HotelDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/HotelDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/RoomDTO$RoomDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/RoomDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/TokenDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/DTOs/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Exceptions/ApiException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Exceptions/NotAuthorizedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/HibernateConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/Hotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/ISecurityUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Persistence/Model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/ReST/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/RoomRoute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/Route.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/RouteHotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Project/Routes/RouteUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties-from-pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-app.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Project/Persistence/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Project/Persistence/HibernateConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +40,7 @@
     "Docker.Dockerfile build.executor": "Run",
     "HTTP Request.Request | Henter alle hoteller.executor": "Run",
     "HTTP Request.Request | Indsætter et nyt hotel ind i databasen.executor": "Run",
+    "Maven.BackendMay [clean].executor": "Run",
     "Maven.BackendMay [install].executor": "Run",
     "Maven.BackendMay [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -94,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.Dockerfile build">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project.Application.App" />
       <module name="BackendMay" />
@@ -147,10 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Dockerfile build" />
         <item itemvalue="HTTP Request.Request | Henter alle hoteller" />
         <item itemvalue="HTTP Request.Request | Indsætter et nyt hotel ind i databasen" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +135,7 @@
       <updated>1714939253825</updated>
       <workItem from="1714939254898" duration="4437000" />
       <workItem from="1714945186419" duration="4102000" />
-      <workItem from="1714979435380" duration="3084000" />
+      <workItem from="1714979435380" duration="5986000" />
     </task>
     <task id="LOCAL-00001" summary="hikl">
       <option name="closed" value="true" />
@@ -190,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714950672989</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ny test">
+      <option name="closed" value="true" />
+      <created>1714984239765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714984239765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +169,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hikl" />
-    <option name="LAST_COMMIT_MESSAGE" value="hikl" />
+    <MESSAGE value="ny test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ny test" />
   </component>
 </project>
