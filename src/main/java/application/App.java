@@ -12,5 +12,7 @@ public class App {
                 .checkSecurityRoles()
                 .setRoute(Route.addRoutes())
                 .configureCors();
+
+
     }
 }

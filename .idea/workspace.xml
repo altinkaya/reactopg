@@ -4,49 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eea99b-589b-41b7-b8c0-7b098bddf7d2" name="Changes" comment="vierk">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="16eea99b-589b-41b7-b8c0-7b098bddf7d2" name="Changes" comment="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Routes/RouteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Routes/RouteUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BackendMay-1.0-SNAPSHOT-shaded.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/app.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/HotelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ISecurityController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/RoomController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/SecurityController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAOs/AbstractDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAOs/HotelDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAOs/ISecurityDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAOs/InterfaceDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAOs/RoomDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAOs/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DTOs/HotelDTO$HotelDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DTOs/HotelDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DTOs/RoomDTO$RoomDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DTOs/RoomDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DTOs/TokenDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DTOs/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ApiException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/NotAuthorizedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/HibernateConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Model/Hotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Model/ISecurityUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Model/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReST/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Routes/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Routes/RoomRoute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Routes/Route.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Routes/RouteHotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Routes/RouteUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-app.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -73,6 +38,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "HTTP Request.Request | Henter alle hoteller.executor": "Run",
+    "HTTP Request.Request | Logger ind med en bruger.executor": "Run",
+    "HTTP Request.Request | Registrer en ny bruger.executor": "Run",
     "Maven.BackendMay [clean].executor": "Run",
     "Maven.BackendMay [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -85,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="HTTP Request.Request | Logger ind med en bruger">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.App" />
       <module name="BackendMay" />
@@ -110,10 +78,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="HTTP Request.Request | Logger ind med en bruger" />
         <item itemvalue="HTTP Request.Request | Registrer en ny bruger" />
         <item itemvalue="HTTP Request.Request | Henter alle hoteller" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -149,9 +117,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715203662419</updated>
-      <workItem from="1715203664063" duration="884000" />
+      <workItem from="1715203664063" duration="2007000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }">
+      <option name="closed" value="true" />
+      <created>1715204730033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715204730033</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vierk" />
-    <option name="LAST_COMMIT_MESSAGE" value="vierk" />
+    <MESSAGE value="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }" />
+    <option name="LAST_COMMIT_MESSAGE" value="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }" />
   </component>
 </project>
