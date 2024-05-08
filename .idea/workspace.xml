@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eea99b-589b-41b7-b8c0-7b098bddf7d2" name="Changes" comment="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }">
+    <list default="true" id="16eea99b-589b-41b7-b8c0-7b098bddf7d2" name="Changes" comment="med config cors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Routes/RouteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Routes/RouteUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715203662419</updated>
-      <workItem from="1715203664063" duration="2007000" />
+      <workItem from="1715203664063" duration="4161000" />
     </task>
     <task id="LOCAL-00003" summary="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }">
       <option name="closed" value="true" />
@@ -127,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715204730033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="med config cors">
+      <option name="closed" value="true" />
+      <created>1715205810259</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715205810259</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vierk" />
     <MESSAGE value="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }" />
-    <option name="LAST_COMMIT_MESSAGE" value="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }" />
+    <MESSAGE value="med config cors" />
+    <option name="LAST_COMMIT_MESSAGE" value="med config cors" />
   </component>
 </project>
