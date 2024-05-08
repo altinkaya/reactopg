@@ -11,6 +11,7 @@ import io.javalin.Javalin;
 import io.javalin.apibuilder.EndpointGroup;
 import io.javalin.http.HttpStatus;
 import jakarta.persistence.EntityManagerFactory;
+import io.javalin.Javalin;
 
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -105,5 +106,15 @@ public class ApplicationConfig {
 
     public void stopServer() {
         app.stop();
+    }
+
+    public ApplicationConfig configureCors() {
+        app.before(ctx -> {
+            ctx.header("Access-Control-Allow-Origin", "*");
+            ctx.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+            ctx.header("Access-Control-Allow-Headers", "Content-Type");
+        });
+
+        return this;
     }
 }

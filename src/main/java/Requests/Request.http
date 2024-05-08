@@ -71,7 +71,7 @@ POST http://localhost:7000/api/auth/register
 Content-Type: application/json
 
 {
-"username": "Youssef",
+"username": "admin",
 "password": "1234"
 }
 
@@ -80,7 +80,7 @@ POST http://localhost:7000/api/auth/login
 Content-Type: application/json
 
 {
-  "username": "Ahmad",
+  "username": "admin",
   "password": "1234"
 }
 
