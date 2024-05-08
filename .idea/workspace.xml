@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="16eea99b-589b-41b7-b8c0-7b098bddf7d2" name="Changes" comment="med config cors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Requests/Request.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Requests/Request.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="HTTP Request.Request | Logger ind med en bruger">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.App" />
       <module name="BackendMay" />
@@ -75,9 +77,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="HTTP Request.Request | Logger ind med en bruger" />
         <item itemvalue="HTTP Request.Request | Registrer en ny bruger" />
+        <item itemvalue="Application.App" />
         <item itemvalue="HTTP Request.Request | Henter alle hoteller" />
       </list>
     </recent_temporary>
@@ -114,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715203662419</updated>
-      <workItem from="1715203664063" duration="4161000" />
+      <workItem from="1715203664063" duration="5286000" />
     </task>
     <task id="LOCAL-00003" summary="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }">
       <option name="closed" value="true" />
