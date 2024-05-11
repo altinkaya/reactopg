@@ -67,7 +67,7 @@ DELETE http://localhost:7000/api/rooms/3
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaG9tYXMgSGFydG1hbm4iLCJzdWIiOiJBaG1hZFRlc3R0IiwiZXhwIjoxNzE0NzI5ODAwLCJyb2xlcyI6IixhZG1pbiIsInVzZXJuYW1lIjoiQWhtYWRUZXN0dCJ9.XC4qO-5yoeaPS7hbK1A2Pqub5MLuiqsNF1orFkj9jXs
 
 ### Registrer en ny bruger
-POST http://react.altinkaya.dk:7000/api/auth/register
+POST https://api.altinkaya.dk/api/auth/register
 Content-Type: application/json
 
 {
