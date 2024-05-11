@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16eea99b-589b-41b7-b8c0-7b098bddf7d2" name="Changes" comment="med config cors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <updated>1715203662419</updated>
       <workItem from="1715203664063" duration="5982000" />
       <workItem from="1715270545180" duration="721000" />
-      <workItem from="1715384668876" duration="1279000" />
+      <workItem from="1715384668876" duration="1918000" />
     </task>
     <task id="LOCAL-00003" summary="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }">
       <option name="closed" value="true" />
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715386730422</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="med config cors">
+      <option name="closed" value="true" />
+      <created>1715387461854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715387461854</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
