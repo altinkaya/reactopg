@@ -66,20 +66,20 @@ DELETE http://localhost:7007/api/rooms/3
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUaG9tYXMgSGFydG1hbm4iLCJzdWIiOiJBaG1hZFRlc3R0IiwiZXhwIjoxNzE0NzI5ODAwLCJyb2xlcyI6IixhZG1pbiIsInVzZXJuYW1lIjoiQWhtYWRUZXN0dCJ9.XC4qO-5yoeaPS7hbK1A2Pqub5MLuiqsNF1orFkj9jXs
 
 ### Registrer en ny bruger
-POST http://localhost:7007/api/auth/register
+POST http://localhost:7000/api/auth/register
 Content-Type: application/json
 
 {
-"username": "Youssef",
+"username": "admin2",
 "password": "1234"
 }
 
 ### Logger ind med en bruger
-POST http://localhost:7007/api/auth/login
+POST http://localhost:7000/api/auth/login
 Content-Type: application/json
 
 {
-  "username": "Ahmad",
+  "username": "admin2",
   "password": "1234"
 }
 
