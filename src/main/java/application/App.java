@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
         ApplicationConfig app = ApplicationConfig.getInstance();
         app.initiateServer()
-                .startServer(7007)
+                .startServer(7000)
                 .setExceptionHandlers()
                 .checkSecurityRoles()
                 .setRoute(Route.addRoutes());

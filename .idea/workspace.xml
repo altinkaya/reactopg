@@ -67,7 +67,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="HTTP Request.Request | Registrer en ny bruger">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.App" />
       <module name="BackendMay" />
@@ -92,9 +92,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="HTTP Request.Request | Registrer en ny bruger" />
         <item itemvalue="HTTP Request.Request | Logger ind med en bruger" />
-        <item itemvalue="Application.App" />
         <item itemvalue="HTTP Request.Request | Henter alle hoteller" />
       </list>
     </recent_temporary>
