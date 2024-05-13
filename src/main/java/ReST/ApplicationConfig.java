@@ -1,9 +1,9 @@
 package ReST;
 
 import Controllers.ISecurityController;
+import Controllers.SecurityController;
 import DTOs.UserDTO;
 import Exceptions.ApiException;
-import Controllers.SecurityController;
 import Persistence.HibernateConfig;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -11,7 +11,6 @@ import io.javalin.Javalin;
 import io.javalin.apibuilder.EndpointGroup;
 import io.javalin.http.HttpStatus;
 import jakarta.persistence.EntityManagerFactory;
-import io.javalin.Javalin;
 
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -31,8 +30,14 @@ public class ApplicationConfig {
         app = Javalin.create(config -> {
             config.http.defaultContentType = "application/json";
             config.routing.contextPath = "/api";
+            config.plugins.enableCors(cors -> {
+                cors.add(it -> {
+                    it.anyHost();
+                });
+            });
         });
     }
+
 
     public static ApplicationConfig getInstance() {
         if (instance == null) {
@@ -103,24 +108,7 @@ public class ApplicationConfig {
         return instance;
     }
 
-
     public void stopServer() {
         app.stop();
-    }
-
-    public ApplicationConfig configureCors() {
-        app.before(ctx -> {
-            ctx.header("Access-Control-Allow-Origin", "https://react.altinkaya.dk");
-            ctx.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-            ctx.header("Access-Control-Allow-Headers", "Content-Type");
-        });
-
-        app.options("/*", ctx -> {
-            ctx.header("Access-Control-Allow-Origin", "https://react.altinkaya.dk");
-            ctx.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-            ctx.header("Access-Control-Allow-Headers", "Content-Type");
-        });
-
-        return this;
     }
 }

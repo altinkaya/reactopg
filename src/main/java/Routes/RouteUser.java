@@ -17,7 +17,6 @@ public class RouteUser {
     public EndpointGroup securityRoutes() {
         return () -> {
             path("/auth", () -> {
-
                 before(securityController.authenticate());
                 post("/login", securityController.login(), Role.ANYONE);
                 post("/register", securityController.register(), Role.ANYONE);

@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16eea99b-589b-41b7-b8c0-7b098bddf7d2" name="Changes" comment="med config cors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReST/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Requests/Request.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Requests/Request.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;altinkaya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="36b8ba5d-a60e-45d3-9274-87cb8c980dd9" />
+        <option name="url" value="https://github.com/altinkaya/reactopg.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -88,7 +103,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
-        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
       </set>
     </attachedChunks>
   </component>
@@ -119,6 +134,9 @@
       <workItem from="1715203664063" duration="5982000" />
       <workItem from="1715270545180" duration="721000" />
       <workItem from="1715384668876" duration="2248000" />
+      <workItem from="1715518543762" duration="87000" />
+      <workItem from="1715584751759" duration="1837000" />
+      <workItem from="1715593678531" duration="397000" />
     </task>
     <task id="LOCAL-00003" summary="    public ApplicationConfig configureCors() {&#10;        app.before(ctx -&gt; {&#10;            ctx.header(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Methods&quot;, &quot;GET, POST, PUT, DELETE, OPTIONS&quot;);&#10;            ctx.header(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type&quot;);&#10;        });&#10;&#10;        return this;&#10;    }">
       <option name="closed" value="true" />
